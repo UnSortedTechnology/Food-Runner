@@ -20,7 +20,7 @@
     <EditText
         android:id="@+id/editTextPhone_login"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_margin="10dp"
         android:ems="10"
         android:hint=" Mobile Number(10 digits)"
@@ -34,7 +34,7 @@
     <EditText
         android:id="@+id/editTextTextPassword_login"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:ems="10"
         android:hint=" Password"
         android:textSize="18sp"
@@ -48,7 +48,7 @@
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Login"
         android:layout_margin="10dp"/>
 
@@ -58,6 +58,7 @@
         android:layout_height="wrap_content"
         android:text="Forgot Password?"
         android:textAllCaps="false"
+        android:clickable="true"
         android:background="@android:color/transparent"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -69,6 +70,7 @@
         android:layout_margin="10dp">
 
         <Button
+            android:clickable="true"
             android:id="@+id/btn_loginSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
